@@ -18,7 +18,7 @@ DecisionPoint 3 was Veda's[^1] credit decisioning and risk platform built to rep
 
 ## Problem
 
-I joined Veda (later Equifax), early in DecionPoint 3's life. Built to replace an older system, DecisionPoint 3 had few users but was expected to grow rapidly. This was back in 2014, so the cloud was relatively new and hadn't made any headway into Australia's highly regulated financial industry.
+I joined Veda, early in DecionPoint 3's life. Built to replace an older system, DecisionPoint 3 had few users but was expected to grow rapidly. This was back in 2014, so the cloud was relatively new and hadn't made any headway into Australia's highly regulated financial industry.
 
 My role was to write and maintain DecisionPoint 3's documentation, as well as write and deliver training programs for clients' admin and business users.
 
@@ -49,7 +49,7 @@ For publishing, I used shell scripts to compile complete documentation for each 
 
 ### Key features
 
-- Docs-as-code using conditional text to tailor documentation to products, clients and release versions
+- Docs-as-code using single-sourcing, conditional text to tailor documentation to products, clients and release versions
 - Automated release notes generation (Python and Jira)
 - Automated publishing
 
@@ -65,8 +65,8 @@ As with all documents in this suite, the HEM guide was assembled from multiple f
 
 ## Lessons learned
 
-- AsciiDoc is the best markup language for technical writers because it's so expressive and feature-rich
-- AsciiDoctor is an outstanding system when you want to build a traditional suite of documents delivered as PDF
+- AsciiDoc is a fantastic markup language for technical writers because it's expressive, feature-rich, and standarised
+- AsciiDoctor is an outstanding system when you need to build a traditional suite of documents delivered as PDF or HTML
 - Rebranding 1000s of documents in minutes (when the parent company allocated 3 months and an eyewatering budget) really impresses management!
 
 

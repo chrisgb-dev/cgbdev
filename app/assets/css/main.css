@@ -1,2 +1,71 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+
+
+:root {
+  /* Base surfaces */
+  --ui-bg: oklch(0.985 0.002 255);
+  --ui-bg-elevated: oklch(0.965 0.004 255);
+  --ui-bg-muted: oklch(0.945 0.006 255);
+
+  /* Text */
+  --ui-text: oklch(0.22 0.015 255);
+  --ui-text-muted: oklch(0.45 0.02 255);
+  --ui-text-dimmed: oklch(0.62 0.015 255);
+
+  /* Borders */
+  --ui-border: oklch(0.88 0.008 255);
+  --ui-border-muted: oklch(0.92 0.004 255);
+
+  /* Brand palette */
+  --ui-primary: var(--ui-color-sky-700);
+  --ui-secondary: var(--ui-color-slate-700);
+  --ui-accent: var(--ui-color-cyan-600);
+
+  /* Semantic */
+  --ui-success: var(--ui-color-emerald-600);
+  --ui-warning: var(--ui-color-amber-600);
+  --ui-error: var(--ui-color-red-600);
+  --ui-info: var(--ui-color-blue-600);
+
+  /* Components */
+  --ui-card: oklch(0.99 0.002 255);
+  --ui-panel: oklch(0.97 0.004 255);
+  --ui-code-bg: oklch(0.94 0.01 255);
+
+  /* Radius */
+  --ui-radius: 0.75rem;
+}
+
+.dark {
+  /* Base surfaces */
+  --ui-bg: oklch(0.16 0.015 255);
+  --ui-bg-elevated: oklch(0.20 0.02 255);
+  --ui-bg-muted: oklch(0.24 0.02 255);
+
+  /* Text */
+  --ui-text: oklch(0.95 0.004 255);
+  --ui-text-muted: oklch(0.76 0.015 255);
+  --ui-text-dimmed: oklch(0.58 0.015 255);
+
+  /* Borders */
+  --ui-border: oklch(0.30 0.015 255);
+  --ui-border-muted: oklch(0.24 0.012 255);
+
+  /* Brand palette */
+  --ui-primary: var(--ui-color-sky-400);
+  --ui-secondary: var(--ui-color-slate-300);
+  --ui-accent: var(--ui-color-cyan-400);
+
+  /* Semantic */
+  --ui-success: var(--ui-color-emerald-400);
+  --ui-warning: var(--ui-color-amber-400);
+  --ui-error: var(--ui-color-red-400);
+  --ui-info: var(--ui-color-blue-400);
+
+  /* Components */
+  --ui-card: oklch(0.19 0.015 255);
+  --ui-panel: oklch(0.22 0.018 255);
+  --ui-code-bg: oklch(0.13 0.012 255);
+}

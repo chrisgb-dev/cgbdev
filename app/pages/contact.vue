@@ -1,6 +1,6 @@
 <template>
     <UPageSection title="Contact me"
-        description="Feel free to reach out if you'd like to work together, have questions about my projects, or just want to say hi! You can find me on LinkedIn and GitHub, or use the contact form below."
+        description="Contact me if you'd like to work together, have questions about my projects, or just want to say hi! You can find me on LinkedIn and GitHub, or use the contact form below."
         icon="i-lucide-mail" :links="links">
 
         <ContactForm />

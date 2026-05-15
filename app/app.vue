@@ -11,7 +11,7 @@
         <UColorModeButton />
 
         <UTooltip text="View source on GitHub" :kbds="['meta', 'G']">
-          <UButton color="neutral" variant="ghost" to="https://github.com/foss-scribe/cgbdev" target="_blank"
+          <UButton color="neutral" variant="ghost" to="https://github.com/chrisgb-dev/cgbdev" target="_blank"
             icon="i-simple-icons-github" aria-label="GitHub" />
         </UTooltip>
       </template>
@@ -41,7 +41,7 @@
       <template #right>
         <UButton icon="i-simple-icons-linkedin" color="neutral" variant="ghost"
           to="https://www.linkedin.com/in/chris-gardiner-bill/" target="_blank" aria-label="LinkedIn" />
-        <UButton icon="i-simple-icons-github" color="neutral" variant="ghost" to="https://github.com/foss-scribe"
+        <UButton icon="i-simple-icons-github" color="neutral" variant="ghost" to="https://github.com/chrisgb-dev"
           target="_blank" aria-label="GitHub" />
       </template>
     </UFooter>
@@ -72,11 +72,11 @@ const navItems = computed<NavigationMenuItem[]>(() => [
     to: '/articles',
     active: route.path.startsWith('/articles')
   },
-  // {
-  //   label: 'Projects',
-  //   to: '/projects',
-  //   active: route.path.startsWith('/projects')
-  // },
+  {
+    label: 'Projects',
+    to: '/projects',
+    active: route.path.startsWith('/projects')
+  },
   // {
   //   label: 'Writing',
   //   to: '/writing',

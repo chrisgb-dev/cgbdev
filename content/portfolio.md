@@ -1,11 +1,11 @@
 ---
-title: "Portfolio"
+title: "Writing Portfolio"
 description: "A portfolio of professional technical writing work created by Chris Gardiner-Bill"
 date: "2023-01-01"
 author: "Chris Gardiner-Bill"
 ---
 
-Included in this portfolio is a broad collection of samples with a description of why and how they were created. They are listed by company. I have also linked to a selection of informal blog posts of a technical nature.
+Included in this portfolio is a broad collection of professional work samples, list by company, with a description of why and how they were created.
 
 This page is work-in-progress and subject to change.
 
@@ -42,12 +42,15 @@ A detailed guide to using the login API endpoint for Specialized's Identity Serv
 
 #### Other work (available on request)
 
-* How to integrate Zone5Cloud with Pipedream.io and Shopify
-* How to build an athlete leaderboard
-* Coding:
-    * OpenAPI JSON to MkDocs-compatible markdown convert using Python.
-    * Zone5Cloud integration module created as a starter project for [Purple Patch Fitness](https://www.purplepatchfitness.com) using Python.
-    * Serverless e-commerce store created for coach and YouTuber [Dylan Johnson](https://www.dylanjohnsontraining.com) ([Direct link](https://store.dylanjohnsontraining.com))
+
+- Tutorials:
+
+    - _How to integrate Zone5Cloud with Pipedream.io and Shopify_
+    - _How to build an athlete leaderboard_
+- Coding:
+    - OpenAPI JSON to MkDocs-compatible markdown convert using Python.
+    - Zone5Cloud integration module created as a starter project for [Purple Patch Fitness](https://www.purplepatchfitness.com) using Python.
+    - Serverless e-commerce store created for coach and YouTuber [Dylan Johnson](https://www.dylanjohnsontraining.com) (_see [project writeup](/projects/training-plan-store)_).
 
 ### Equifax Australia
 
@@ -73,11 +76,11 @@ Brief: The task was to create a tutorial that explains how to:
 * Fetch a list of pets from the Swagger Petstore API - https://petstore.swagger.io/. 
 * Render the results in a web page. 
 
-The complete exercise is [available on my GitHub account](https://github.com/foss-scribe/swagger-petstore-api-guide-tutorial).
+The complete exercise is [available on my GitHub account](https://github.com/chrisgb-dev/swagger-petstore-api-guide-tutorial).
 
 `Markdown` `JavaScript` `API Documentation`
 
-### Blog posts
+<!-- ### Blog posts
 
 I regularly publish technical articles on Medium and this site. While informal in tone (and not rigorously edited or proof-read), they demonstrate my writing across a variety of topics and interests.
 
@@ -87,4 +90,4 @@ I regularly publish technical articles on Medium and this site. While informal i
 * [Using SOX on macOS](https://technicalprose.medium.com/using-sox-on-macos-48f25014d1e3)
 * [My favourite markdown tools](https://technicalprose.medium.com/my-favourite-markdown-tools-fc1cdc537e67)
 * [How to seek and destroy filter words with Scrivener](https://technicalprose.medium.com/how-to-seek-and-destroy-filter-words-with-scrivener-a968dd8cf914)
-* [How to host multiple local websites with macOS Big Sur](https://technicalprose.medium.com/how-to-host-multiple-local-websites-with-macos-big-sur-72d947f3e97c)
+* [How to host multiple local websites with macOS Big Sur](https://technicalprose.medium.com/how-to-host-multiple-local-websites-with-macos-big-sur-72d947f3e97c) -->

@@ -6,15 +6,15 @@ headline: Resume
 ---
 
 ::centered
-**Developer Experience Engineer | AI Developer Platforms | API Ecosystems**
+**Docs & DevX Engineer | AI Developer Platforms | API Ecosystems**
 
-**[Contact](/contact) | Portfolio | [LinkedIn](https://www.linkedin.com/in/chris-gardiner-bill/) | [GitHub](https://github.com/foss-scribe)**
+**[Contact](/contact) | [Portfolio](/portfolio) | [LinkedIn](https://www.linkedin.com/in/chris-gardiner-bill/) | [GitHub](https://github.com/chrisgb-dev)**
 ::
 
 
 ## Profile
 
-Developer Experience engineer with 20+ years working at the intersection of **software engineering, API ecosystems, and developer documentation**.
+Docs engineer with 20+ years working at the intersection of **software engineering, API ecosystems, and developer documentation**.
 
 Specialises in building **docs-as-code systems, developer onboarding platforms, and AI-enabled knowledge tools** that help engineers integrate complex software faster. Combines deep technical writing expertise with hands-on full-stack development experience across Python, JavaScript, and modern documentation infrastructure.
 
@@ -48,10 +48,10 @@ Industry experience includes **AI platforms, SaaS products, fintech, analytics, 
 
 ### Software Development
 
-- API development and debugging
+- API development and integration
 - OpenAPI / Swagger ecosystems
 - Full-stack development (Python / JavaScript)
-- Automation tooling
+- Automation tooling and testing
 
 
 ## Technical Stack
@@ -62,15 +62,15 @@ Industry experience includes **AI platforms, SaaS products, fintech, analytics, 
 
 - **Frameworks & Tools**:
 
-    FastAPI • Vue • React • Node • MkDocs • Static Site Generators
+    FastAPI • Vue • React • Node • MkDocs • NextJS • Nuxt
 
 - **Developer Platforms**:
 
-    OpenAPI • Postman • Git • CI/CD pipelines
+    OpenAPI • Postman • Git • CI/CD pipelines • AWS • CloudFlare
 
 - **Documentation Infrastructure**:
 
-    Markdown • AsciiDoc • Docs-as-Code systems
+    Markdown • AsciiDoc • Docs-as-Code
 
 
 ## Professional Experience
@@ -169,6 +169,10 @@ Worked for Broadspectrum's Infrastcture ANZ business as a technical writer to wr
 
 ## Education
 
+- **Diploma of Project Management**
+    
+    Institute of Management, Australia, 2012
+
 - **Master of Arts (Communications)**
 
     The University of Melbourne, 2006
@@ -176,7 +180,3 @@ Worked for Broadspectrum's Infrastcture ANZ business as a technical writer to wr
 - **Bachelor of Arts (Honours)**
     
     The University of Melbourne, 2002
-
-- **Diploma of Project Management**
-    
-    Institute of Management, Australia, 2012

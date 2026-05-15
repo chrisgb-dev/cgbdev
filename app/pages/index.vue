@@ -7,7 +7,8 @@
 
   <USeparator />
 
-  <UPageSection title="What I do"
+  <UPageSection 
+    title="What I do"
     description="I specialise in technical writing, software development, and DevOps, with a focus on API documentation, web development, and cloud infrastructure.">
     <UPageGrid>
       <UPageCard 
@@ -33,19 +34,32 @@
     description="I build tools and documentation that help developers integrate APIs and AI systems, including:"
     :features="buildFeatures" />
 
+    <UPageSection 
+      title="Tech stack"
+      description="I work with a wide range of technologies, but here are some of the key tools and platforms I use regularly:">
+      <UPageLogos
+        marquee
+        :items="[
+          'i-simple-icons-python',
+          'i-simple-icons-javascript',
+          'i-simple-icons-typescript',
+          'i-simple-icons-react',
+          'i-simple-icons-cloudflare',
+          'i-simple-icons-amazonaws',
+          'i-simple-icons-docker',
+          'i-simple-icons-git',
+          'i-simple-icons-github',  
+        ]"
+      />
+    
+  </UPageSection>
+
 </template>
 
 <script setup lang="ts">
-import type { ButtonProps } from '@nuxt/ui'
+import type { ButtonProps, PageFeatureProps } from '@nuxt/ui'
 
 const links = ref<ButtonProps[]>([
-    // {
-    //   label: 'Projects',
-    //   to: '/projects',
-    //   icon: 'i-lucide-code',
-    //   color: 'neutral',
-    //   variant: 'subtle',
-    // },
     // {
     //   label: 'Writing',
     //   to: '/writing',
@@ -61,8 +75,8 @@ const links = ref<ButtonProps[]>([
       icon: 'i-lucide-pencil'
     },
     {
-      label: 'Portfolio',
-      to: '/portfolio',
+      label: 'Projects',
+      to: '/projects',
       color: 'neutral',
       variant: 'subtle',
       icon: 'i-lucide-briefcase'

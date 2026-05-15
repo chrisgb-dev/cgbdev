@@ -2,15 +2,17 @@
 title: About me
 ---
 
-I'm a developer experience engineer with a background in technical writing, full-stack development, and documentation infrastructure. I specialise in building developer onboarding systems, API documentation platforms, and AI-powered developer tools.
+I'm a docs engineer with a background in technical writing, full-stack development, and documentation infrastructure. I specialise in building documentation platforms, developer onboarding, API documentation platforms, and AI-powered documentation tools.
+
 
 ## Skills
 
 - Developer Experience
 - Technical Writing & Editing
-- Docs-as-code & Automation
+- Docs-as-code and CI/CD
 - AI & Knowledge Systems
-- Software Development
+- Software Development (full stack)
+- Training Development and Delivery
 
 ## Tech stack
 
@@ -32,7 +34,7 @@ I'm a developer experience engineer with a background in technical writing, full
 
 ## Links
 
-- [GitHub](https://github.com/foss-scribe)
+- [GitHub](https://github.com/chrisgb-dev)
 - [LinkedIn](https://www.linkedin.com/in/chris-gardiner-bill/)
 
 
