@@ -17,13 +17,15 @@ const links = ref<ButtonProps[]>([
         label: 'LinkedIn',
         to: 'https://www.linkedin.com/in/chris-gardiner-bill/',
         icon: 'i-lucide-linkedin',
-        color: 'neutral'
+        color: 'neutral',
+        target: '_blank'
     },
     {
         label: 'GitHub',
-        to: 'https://github.com/foss-scribe',
+        to: 'https://github.com/chrisgb-dev',
         icon: 'i-lucide-github',
-        color: 'neutral'
+        color: 'neutral',
+        target: '_blank'
     }
 ])
 </script>

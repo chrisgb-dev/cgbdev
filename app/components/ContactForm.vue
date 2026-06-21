@@ -13,9 +13,17 @@
                 <UTextarea v-model="state.message" placeholder="Your message" class="w-full" :rows="6" />
             </UFormField>
 
-            <UFormField class="my-6">
-                <UButton type="submit">Send</UButton>
-            </UFormField>
+            
+            <input type="hidden" v-model="state.website" />
+
+            <UButton
+                type="submit"
+                color="neutral"
+                class="mt-4" 
+                size="lg"
+                trailing-icon="i-lucide-send">
+                    Send
+            </UButton>
         </UForm>
     </UPageCard>
 </template>
@@ -24,10 +32,13 @@
 import * as z from 'zod'
 import type { FormSubmitEvent } from '@nuxt/ui'
 
+const loading = ref(false)
+
 const schema = z.object({
     email: z.email('Invalid email'),
     name: z.string('Name is required'),
-    message: z.string('Message is required')
+    message: z.string('Message is required'),
+    website: z.string().optional()
 })
 
 type Schema = z.output<typeof schema>
@@ -35,13 +46,14 @@ type Schema = z.output<typeof schema>
 const state = reactive<Partial<Schema>>({
     email: undefined,
     name: undefined,
-    message: undefined
+    message: undefined,
+    website: undefined
 })
 
 const toast = useToast()
 async function onSubmit(event: FormSubmitEvent<Schema>) {
-
-    const rsp = await fetch('https://eoi1xu9akqr67xx.m.pipedream.net', {
+    loading.value = true
+    const rsp = await fetch('/api/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -51,9 +63,15 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
     if (!rsp.ok) {
         toast.add({ title: 'Error', description: 'Failed to send message.', color: 'error' })
+        loading.value = false
         return
     }
 
-    toast.add({ title: 'Success', description: 'Message sent.', color: 'success' })
+    toast.add({ title: 'Success', description: 'Message sent.', color: 'neutral' })
+    loading.value = false
+    state.name = undefined
+    state.email = undefined
+    state.message = undefined
+    state.website = undefined
 }
 </script>

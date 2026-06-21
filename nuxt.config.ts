@@ -16,6 +16,8 @@ export default defineNuxtConfig({
     ignoreLocalhost: true
   },
   runtimeConfig: {
+    pipedreamUrl: process.env.PIPEDREAM_URL,
+    pipedreamToken: process.env.PIEPEDREAM_TOKEN,
     public: {
       siteUrl: process.env.SITE_URL || 'https://chrisgb.dev',
     }

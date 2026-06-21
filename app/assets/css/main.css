@@ -24,10 +24,10 @@
   --ui-accent: var(--ui-color-cyan-600);
 
   /* Semantic */
-  --ui-success: var(--ui-color-emerald-600);
-  --ui-warning: var(--ui-color-amber-600);
-  --ui-error: var(--ui-color-red-600);
-  --ui-info: var(--ui-color-blue-600);
+  /* --ui-success: var(--ui-color-emerald-600); */
+  /* --ui-warning: var(--ui-color-amber-600); */
+  /* --ui-error: var(--ui-color-red-600); */
+  /* --ui-info: var(--ui-color-blue-600); */
 
   /* Components */
   --ui-card: oklch(0.99 0.002 255);
@@ -59,10 +59,10 @@
   --ui-accent: var(--ui-color-cyan-400);
 
   /* Semantic */
-  --ui-success: var(--ui-color-emerald-400);
+  /* --ui-success: var(--ui-color-emerald-400);
   --ui-warning: var(--ui-color-amber-400);
   --ui-error: var(--ui-color-red-400);
-  --ui-info: var(--ui-color-blue-400);
+  --ui-info: var(--ui-color-blue-400); */
 
   /* Components */
   --ui-card: oklch(0.19 0.015 255);

@@ -75,13 +75,17 @@ Industry experience includes **AI platforms, SaaS products, fintech, analytics, 
 
 ## Professional Experience
 
+### Senior Technical Writer
+
+#### Kaluza | 2026-Current
+
 ### Consultant – Developer Experience & AI Documentation
 
-#### Sportsbet / Flutter Group | 2025–Present
+#### Sportsbet / Flutter Group | 2025–2026
 
-Working with the Enterprise AI team to support the organisation’s **AI-enabled software development lifecycle transformation**.
+Worked with the Enterprise AI team to support the organisation’s **AI-enabled software development lifecycle transformation**.
 
-Responsibilities include designing and maintaining internal developer documentation systems that support AI platform adoption across engineering teams.
+Responsibilities included designing and maintaining internal developer documentation systems that support AI platform adoption across engineering teams.
 
 Key contributions:
 
